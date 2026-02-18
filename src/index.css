@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
+.col .footer-heading {
+  font-size: 19px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.col a{
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+  line-height: 3;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.col a:hover{
+  color: #387ed1;
+}
+
+.bottom-links ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left:23%;
+}
+
+.bottom-links ul li{
+  margin-right: 20px;
+  text-align: center;
+}
+.bottom-links a{
+  text-decoration: none;
+  color: #9b9b9b;
+  line-height: 4;
+  font-size: 12px;
+  font-weight: 500;
+}
+.bottom-links a:hover{
+  color: #387ed1;
+}
+
+.universe-logo img{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.create-ticket li{
+  color: #387ed1;
+}
+
+.create-ticket li a{
+  text-decoration: none;
+  line-height: 3;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+#supportHero{
+  background-color: #f6f6f6;
+}
+
+#supportHero input{
+  margin-bottom: 2rem;
+  padding: 16px 0 16px 4px;
+  outline-style: none;
+  --tw-outline-style: none;
+  width: 80%;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#supportWrapper h1{
+  color:#424242;
+}
